@@ -9,7 +9,7 @@ namespace SSolomon_ProjectProposal2
         /// <summary>
         /// Upon starting the game, the program must generate a word for the player to guess. 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>A random 5 letter word</returns>
         public static string GetRandomWord()
         {
             // 1. Load a filed called `words.txt`
@@ -24,7 +24,7 @@ namespace SSolomon_ProjectProposal2
         /// 
         /// </summary>
         /// <param name="word"></param>
-        /// <returns></returns>
+        /// <returns>the guess the user made</returns>
         public static string GetGuess(string correctWord)
         {
             return null;
