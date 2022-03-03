@@ -14,6 +14,7 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'water'");
 
+            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess();
 
             string expected = "water";
@@ -32,6 +33,7 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'apple'");
 
+            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess();
 
             string expected2 = "apple";
@@ -49,14 +51,20 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'tie'");
 
+            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess();
 
+            // TODO(jcollard 2022-03-03): Should the GetGuess method allow the user to enter
+            // a 3 letter word?
             string expected3 = "tie";
             if (result != expected3)
             {
                 Console.Error.WriteLine($"Failure: Expected result to be 'tie' but it was {result}");
                 return false;
             }
+
+            // TODO(jcollard 2022-03-03): Don't forget to return true at the end
+            
         }
     }
 }
