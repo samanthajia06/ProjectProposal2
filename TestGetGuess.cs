@@ -14,7 +14,6 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'water'");
 
-            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess("chard");
 
             string expected = "water";
@@ -33,7 +32,6 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'apple'");
 
-            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess("chase");
 
             string expected2 = "apple";
@@ -49,13 +47,10 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Invalid Input! Only enter a word that is the exact amount of letters shown.");
 
-            Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'tie'");
+            Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'white'");
 
-            // TODO(jcollard 2022-03-03): What parameter should GetGuess take?
             string result = program.GetGuess("green");
 
-            // TODO(jcollard 2022-03-03): Should the GetGuess method allow the user to enter
-            // a 3 letter word?
             string expected3 = "white";
             if (result != expected3)
             {

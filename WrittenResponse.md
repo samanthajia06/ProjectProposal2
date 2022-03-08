@@ -10,6 +10,7 @@ Provide a written response that does all three of the following:
 ### 3a i.
 
 Describes the overall purpose of the program.
+The purpose of the program is to provide entertainment for a person by having them guess a random 5-letter word.
 
 ### 3a ii.
 
