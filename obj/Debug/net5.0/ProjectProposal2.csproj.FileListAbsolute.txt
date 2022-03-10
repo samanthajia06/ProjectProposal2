@@ -1,0 +1,15 @@
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.csproj.AssemblyReference.cache
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.AssemblyInfoInputs.cache
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.AssemblyInfo.cs
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.csproj.CoreCompileInputs.cache
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ProjectProposal2.deps.json
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ProjectProposal2.runtimeconfig.json
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ProjectProposal2.runtimeconfig.dev.json
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ProjectProposal2.dll
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ref/ProjectProposal2.dll
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/bin/Debug/net5.0/ProjectProposal2.pdb
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.dll
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ref/ProjectProposal2.dll
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.pdb
+/Users/samanthasolomon/Documents/GitHub/ProjectProposal2/obj/Debug/net5.0/ProjectProposal2.genruntimeconfig.cache

@@ -32,7 +32,7 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'apple'");
 
-            string result = program.GetGuess("chase");
+            result = program.GetGuess("chase");
 
             string expected2 = "apple";
             if (result != expected2)
@@ -49,7 +49,7 @@ namespace SSolomon_ProjectProposal2
 
             Console.WriteLine("Test that the program allows you to enter a word of the correct length. Enter 'white'");
 
-            string result = program.GetGuess("green");
+            result = program.GetGuess("green");
 
             string expected3 = "white";
             if (result != expected3)
