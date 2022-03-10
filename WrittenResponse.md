@@ -16,10 +16,13 @@ The purpose of the program is to provide entertainment for a person by having th
 
 Describes what functionality of the program is demonstrated in the video.
 
+This video demonstrates that a certain color will be displayed based on the accuracy of a word. 
+
 ### 3a iii.
 
 Describes the input and output of the program demonstrated in the video.
 
+My program accepts user input from the keyboard. It will then return a certain color (Green if correct, yellow if the letter is in the word, but not the right place, and white if the letter is not a part of the word at all), based on the accuracy of their guess. 
 
 ## 3b
 
