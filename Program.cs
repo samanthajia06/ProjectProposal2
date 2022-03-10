@@ -7,6 +7,24 @@ namespace SSolomon_ProjectProposal2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Wordle!");
+            string correctWord = GetRandomWord();
+            Console.WriteLine("The random word is 5 characters long. Enter a random guess.");
+            while (true)
+            {
+                string input = GetGuess(correctWord);
+                if (input == correctWord)
+                {
+                    Console.WriteLine("Nice! You guessed the word correctly!");
+                    return;
+                }
+                else
+                {
+                    DisplayInfo(input, correctWord);
+                    Console.WriteLine("");
+                }
+            }
+
         }
 
         /// <summary>
@@ -15,13 +33,14 @@ namespace SSolomon_ProjectProposal2
         /// <returns>A random 5 letter word</returns>
         public static string GetRandomWord()
         {
-            List<string> names = new List<string>();
-            names.Add("earth");
+            List<string> words = new List<string>();
+            words.Add("earth");
+            // TODO: Add words
 
             Random generator = new Random();
-            int index = generator.Next(0, names.Count);
+            int index = generator.Next(0, words.Count);
 
-            string randomWord = names[ix];
+            string randomWord = words [index];
 
             // program.loadfile(words.txt);
 
@@ -42,24 +61,19 @@ namespace SSolomon_ProjectProposal2
         /// <returns>the guess the user made</returns>
         public static string GetGuess(string correctWord)
         {
-            int playerGuess;
-
-            do
+            while (true)
             {
                 Console.WriteLine("Try to guess the word by entering a 5 letter word.");
                 string input = Console.ReadLine();
-                if (playerGuess == correctWord)
+                if (input.Length == correctWord.Length)
                 {
-                    Console.WriteLine("Nice! You got the word first try!");
+                    return input;
                 }
                 else
                 {
-                    
+                    Console.WriteLine("Your guess must only be 5 characters long.");
                 }
             }
-            // TODO: look at Console Guessing Game
-
-            return null;
         }
         /// <summary>
         /// Reads the word and displays the accuracy of the overall word. 
@@ -74,7 +88,7 @@ namespace SSolomon_ProjectProposal2
             }
 
             int ix = 0;
-         
+
             while (ix < correct.Length)
             {
                 char guessChar = guess[ix];
@@ -114,7 +128,7 @@ namespace SSolomon_ProjectProposal2
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
             Console.Write(guess);
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
 
             // 1. GetGuess
             // 2. display green if letter is in correct place 
